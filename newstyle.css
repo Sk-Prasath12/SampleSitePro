@@ -1,0 +1,124 @@
+.indexparent{
+    position: relative;
+  }
+  .firstbox{
+    position: absolute;
+    border: 4px solid black;
+    left: 200px;
+    top: 50px;
+    width: 300px;
+    height: 300px;
+    background-color: red;
+    z-index: 3;
+  }
+  .secondbox{
+    position: absolute;
+    border: 4px solid black;
+    top: 100px;
+    width: 300px;
+    height: 300px;
+    background-color: green;
+    z-index: 1;
+  }
+  .thirdbox{
+    position: absolute;
+    left: 100px;
+    border: 4px solid black;
+    top: 150px;
+    width: 300px;
+    height: 300px;
+    background-color: yellow;
+    z-index: 2;
+  }
+  
+  .container {
+    display: flex;
+    width: 80%; /* Adjust width of the overall container */
+  }
+  
+  .overflowparent{
+    margin-top: 450px;
+  }
+  .flowbox {
+    flex: 1;
+    width: 300px;
+    height: 200px; 
+    border: 2px solid #000;
+    padding: 15px;
+    overflow: hidden; 
+    background-color: #e0e0e0;
+  }
+  
+  .parah {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  .overflowparent1{
+    margin-top: 530px;
+  }
+  .flowbox1{
+    flex: 1;
+    margin-top: 0;
+    width: 300px;
+    height: 200px; 
+    border: 2px solid #000;
+    padding: 15px;
+    overflow: scroll; 
+    background-color: #e0e0e0;
+  }
+  
+  .parah1{
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  .overflowparent2{
+    margin-top: 530px;
+  }
+  .flowbox2{
+    flex: 1;
+    margin-top: 0;
+    width: 300px;
+    height: 200px; 
+    border: 2px solid #000;
+    padding: 15px;
+    overflow-y: scroll; 
+    background-color: #e0e0e0;
+  }
+  
+  .parah2{
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  .button1{
+    padding: 20px 30px;
+    background-color: black;
+    color: white;
+  }
+  .button1:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    transition: 0.5s;
+  }
+  .button2{
+    padding: 20px 30px;
+    background-color: rgb(248, 4, 4);
+    color: rgb(255, 235, 235);
+  }
+  .button2:active{
+    background-color: white;
+    color: rgb(0, 0, 0);
+  }
+  
+  .visit {
+    margin-top: 50px;
+    font-size: 30px;
+  }
+  .visit a:link {
+    color: blue; 
+  }
+  
+  .visit a:visited {
+    color: red; 
+  }
+  

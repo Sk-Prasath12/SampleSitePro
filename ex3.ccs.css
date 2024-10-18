@@ -1,0 +1,45 @@
+.container{
+    width: 100%;
+    margin: auto;
+    overflow: auto;
+    border: 4px solid black;
+    padding: 100PX;
+    background:yellowgreen;
+    background-image: url();
+    background-repeat: no-repeat;
+}
+.Name{
+    display: flex;
+    flex-direction: row;
+}
+.Lastname input  {
+    margin-right: 30px;
+}
+.Email input{
+    width: 90%;
+
+}
+.PhoneNo input{
+    width: 90%;
+}
+.Adress textarea{
+    width: 90%;
+}
+.city input{
+    width: 90%;
+}
+.country select{
+    width: 90%;
+}
+.state select{
+    width: 90%;
+}
+.zip input{
+    width: 90%;
+}
+.commant textarea{
+    width: 90%;
+}
+button{
+    width: 100px;
+}

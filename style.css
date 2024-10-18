@@ -1,0 +1,20 @@
+.container{
+    margin: 50px;
+}
+box1{
+    position: relative;
+    left: 200px;
+}
+.box1 h3{
+  font-size: 20px;
+  color: rgb(255, 149, 0);
+  left: 100px;
+}
+.box1 span{
+    font-size: 25px;
+    font-weight: 700;
+    color: rgb(4, 4, 86);
+}
+.span{
+    font-size: 40px;
+}

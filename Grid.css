@@ -1,0 +1,20 @@
+body{
+    background-color: aqua;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    /* row-gap: 10px; */
+    /* column-gap: 10px; */
+    gap: 10px;
+}
+.container div{
+    background-color: aliceblue;
+}
+.Box{
+    background-color:burlywood;
+    font-size:large;
+    padding: 20px;
+    grid-template-columns:1fr 1fr 1fr;
+    grid-template-rows: ;
+}

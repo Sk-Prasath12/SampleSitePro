@@ -1,0 +1,86 @@
+.mlist {
+    list-style: none;
+    display: flex;
+    padding: 0;
+margin: 15  ;
+    
+    margin-left: 75%;
+
+}
+
+li {
+    
+
+    padding: 10px 10px;
+    margin-right: 20px;
+
+}
+
+li:hover {
+    color: gray;
+}
+li:active{
+    color: rgb(44, 44, 194);
+}
+
+li a {
+    color: white;
+    text-decoration: none;
+   
+}
+li a:hover {
+    color: gray;
+}
+li a:active{
+    color: blue;
+}
+.rotate-image {
+  opacity: 0.5;
+
+    display: block;
+    margin: 20px auto;
+    width: 500px;
+    height: auto;
+    transition: transform 0.5s ease;
+}
+.rotate-image:hover {
+    filter:grayscale(100%);
+    transform: rotate(45deg);   
+}
+.ppp{
+    padding-right: 0px;
+    width: 8%;
+    height: 80px;
+    
+
+
+}
+.xxx{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    padding: 70px;
+    margin-bottom: 200px;
+    border: 1px solid #ccc;
+    background-color: #f7f3f3;
+    width: 25%;
+    font-size: larger;
+    font-weight: bold;
+    margin: auto;
+    overflow: auto;
+    height: 605px;
+    
+
+}
+.aaa{
+    background-color: rgb(41, 173, 41);
+    padding: 10px;
+}
+.qqq{
+    background-color: red;
+    padding: 10px;
+}
+.sss{
+    
+}
+
